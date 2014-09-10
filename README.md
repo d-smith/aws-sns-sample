@@ -45,3 +45,7 @@ Finally, to publish a message to the topic:
 
     vagrant@precise64:/vagrant/dev/aws-sns$ ruby publish_to_topic.rb arn:aws:sns:us-east-1:930295567417:testQueueTopic
     published message 41d7b69b-c41d-55bb-a646-fa11072ff705
+
+You can then use the AWS console (or the API) to view the messages.
+
+![Messages](msgs.png "Messages")
